@@ -9,8 +9,6 @@ public class App {
         MyStack<Integer> bbb = new MyStack<Integer>();
         System.out.println(aaa);
         System.out.println(bbb);
-        // try {
-        //Object aa = aaa.peek();
         for (int i = 0; i < 10; i++) {
             aaa.push(i);
             bbb.push(i);
